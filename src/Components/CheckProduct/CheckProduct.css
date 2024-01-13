@@ -1,0 +1,29 @@
+.checkproduct {
+  display: flex;
+  margin: 0 20px;
+}
+.checkprodcut__info {
+  padding-left: 30px;
+  margin-left: 10px;
+}
+.checkprodcut__info > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.checkprodcut__image {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.checkProduct__rating {
+  display: flex;
+}
+.checkProduct__title {
+  font-style: 16px;
+  font-weight: 700;
+}
