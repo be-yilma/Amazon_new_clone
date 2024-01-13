@@ -12,7 +12,7 @@ const app = express();
 app.use(cors({ origin: true }));
 app.use(express.json());
 
-// app.get("/", (req, res) => res.status(200).send("Hello world"));
+app.get("/", (req, res) => res.status(200).send("Hello world"));
 
 app.post("/payments/create", async (request, response) => {
   const total = request.query.total;
